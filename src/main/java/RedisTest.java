@@ -105,7 +105,7 @@ public class RedisTest {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-//            RedisUtil.getPool().returnResource(jedis);
+//             RedisUtil.getPool().returnResource(jedis);
         }
     }
 
